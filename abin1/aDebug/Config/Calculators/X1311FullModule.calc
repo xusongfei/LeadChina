@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Thermo1GeometryCalculator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="X1311Calculator">
+  <ProductName>X1311FullModule</ProductName>
+  <GeoCalcs>
+    <GDTCalc xsi:type="FlatnessCalc">
+      <Name>D</Name>
+      <Description>ped flatness</Description>
+      <GDTType>Flatness</GDTType>
+      <IsDatum>true</IsDatum>
+      <ExpectValue>Normal</ExpectValue>
+      <SourcePos>ped</SourcePos>
+      <Spec>0</Spec>
+      <SpecMin>0</SpecMin>
+      <SpecMax>0</SpecMax>
+      <Value>0</Value>
+      <Data />
+      <Max>0</Max>
+      <Min>0</Min>
+      <Success>false</Success>
+    </GDTCalc>
+    <GDTCalc xsi:type="ProfileOfSurfaceCalc">
+      <Name>H</Name>
+      <Description>standoff h</Description>
+      <GDTType>ProfileOfSurface</GDTType>
+      <IsDatum>false</IsDatum>
+      <ExpectValue>Normal</ExpectValue>
+      <SourcePos>h</SourcePos>
+      <DatumName>D</DatumName>
+      <Spec>0</Spec>
+      <SpecMin>0</SpecMin>
+      <SpecMax>0</SpecMax>
+      <Value>0</Value>
+      <Data />
+      <Max>0</Max>
+      <Min>0</Min>
+      <Success>false</Success>
+    </GDTCalc>
+    <GDTCalc xsi:type="ProfileOfSurfaceCalc">
+      <Name>I</Name>
+      <Description>standoff i</Description>
+      <GDTType>ProfileOfSurface</GDTType>
+      <IsDatum>false</IsDatum>
+      <ExpectValue>Normal</ExpectValue>
+      <SourcePos>i</SourcePos>
+      <DatumName>D</DatumName>
+      <Spec>0</Spec>
+      <SpecMin>0</SpecMin>
+      <SpecMax>0</SpecMax>
+      <Value>0</Value>
+      <Data />
+      <Max>0</Max>
+      <Min>0</Min>
+      <Success>false</Success>
+    </GDTCalc>
+    <GDTCalc xsi:type="ProfileOfSurfaceCalc">
+      <Name>FAI3</Name>
+      <GDTType>ProfileOfSurface</GDTType>
+      <IsDatum>false</IsDatum>
+      <ExpectValue>Normal</ExpectValue>
+      <SourcePos>up</SourcePos>
+      <DatumName>D</DatumName>
+      <Spec>0</Spec>
+      <SpecMin>0</SpecMin>
+      <SpecMax>0</SpecMax>
+      <Value>0</Value>
+      <Data />
+      <Max>0</Max>
+      <Min>0</Min>
+      <Success>false</Success>
+    </GDTCalc>
+  </GeoCalcs>
+</Thermo1GeometryCalculator>
